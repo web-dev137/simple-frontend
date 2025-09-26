@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'jost';
+    src: url("./fonts/static/Jost-Regular.ttf");
+    font-weight: 400;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-right {
+    margin-right: 60px;
+}
+
+.buy-btn {
+    background-color: #000000;
+    color: #ffffff;
+    font: jost;
+    font-size: 18px;
+    padding: 12px 26px 18px;
+}
+
+.logo {
+    margin-left: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #000000;
+}
