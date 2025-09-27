@@ -3,7 +3,7 @@
     src: url("./fonts/static/Jost-Regular.ttf");
     font-weight: 400;
 }
-header {
+header,section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,9 +43,30 @@ section {
     padding-right: 60px;
 }
 
-#product-banner {
-    display: flex;
+p,span {
+    font-family: 'Jost';
+}
+.wrapper, #product-banner{
+    display:flex;
     justify-content: space-around;
+}
+.link-btns {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.row-btns {
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+#product-description-wrapper {
+    align-items: flex-end;
+}
+.product-description-right {
+    margin-left: 50px;
 }
 
 .product-banner-left {
@@ -53,9 +74,12 @@ section {
     padding-top: 116px;
 }
 
-.title-product-banner {
-    font-family: 'Jost';
+.title-product-banner, .title-product {
     font-size: 96px;
+}
+
+.title-product {
+    margin-bottom: 43px;
 }
 
 .subtitle-product-banner {
@@ -88,4 +112,15 @@ section {
     background-color: #E2B013;
     padding: 4px;
     position: absolute;
+}
+
+.description-product {
+    font-size: 22px;
+}
+
+.link-btn {
+    padding: 9px 30px 9px 16px;
+    background-color: #000000;
+    margin: 0px 10px 0px 0px;
+    color: #ffffff;
 }
