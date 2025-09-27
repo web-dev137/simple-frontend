@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'jost';
+    font-family: 'Jost';
     src: url("./fonts/static/Jost-Regular.ttf");
     font-weight: 400;
 }
@@ -23,7 +23,7 @@ header {
 .buy-btn {
     background-color: #000000;
     color: #ffffff;
-    font: jost;
+    font-family: 'Jost';
     font-size: 18px;
     padding: 12px 26px 18px;
 }
@@ -36,4 +36,56 @@ nav a {
     text-decoration: none;
     margin-left: 10px;
     color: #000000;
+}
+
+section {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#product-banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-banner-left {
+    margin-top: 46px;
+    padding-top: 116px;
+}
+
+.title-product-banner {
+    font-family: 'Jost';
+    font-size: 96px;
+}
+
+.subtitle-product-banner {
+    font-family: 'Jost';
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.product-description-banner {
+    font-family: 'Jost';
+    font-size: 26px;
+    margin-top: 46px;
+}
+
+#product-advantages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.advantage-description {
+    font-family:'Jost';
+    font-size: 10px;
+}
+
+.design-addicted-btn {
+    font-family: 'Jost';
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #E2B013;
+    padding: 4px;
+    position: absolute;
 }
