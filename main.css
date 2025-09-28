@@ -11,6 +11,11 @@ header,section {
     background-color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .header-left, .header-right {
     display: flex;
     align-items: center;
@@ -39,6 +44,7 @@ nav a {
 }
 
 section {
+    display: flex;
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -123,4 +129,41 @@ p,span {
     background-color: #000000;
     margin: 0px 10px 0px 0px;
     color: #ffffff;
+}
+#landing-pages {
+    flex-direction: column;
+    gap: 60px;
+}
+.pages-container {
+    flex-direction: column;
+    width: 100%;
+}
+.landing-pages-row {
+    display: flex;
+    flex-direction: row;
+    gap: 46px;
+    margin-bottom: 78px;
+}
+
+.landing-page {
+   background-color: rgba(0, 0, 0, 4%);
+   padding: 29px 29px 0px 29px;
+}
+.landing-page-title {
+    font-size: 26px;
+    margin-top: 17px;
+}
+
+.landing-page-btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 6px 100px 14px 30px;
+}
+.landing-page-btn span {
+    font-size: 36px;
+}
+.landing-section-row {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
 }
